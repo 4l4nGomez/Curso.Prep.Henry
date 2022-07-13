@@ -8,6 +8,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
 
+    display: flex;
+    text-align: center;
 }
 
 
@@ -15,24 +17,63 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioDos{
 
+    /*Hace que no se muestre la caja*/
+    display: none;
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
+#ejercicioTres
+{
 
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
+#ejercicioCuatro
+{
 
+    /*Fija la barra en la parte superior*/
+    position: fixed;
+    top: 0;
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
+#ejercicioCinco
+{
+    display: flex;
+    /*Nos alinea proporcionalmente los elementos*/
+    justify-content: space-evenly;
+    /*Que no nos quede en la misma linea*/
+    align-items: center;
+}
+#ejercicioCinco
+{
+  display: flex;
+  /*Voltea los elementos*/
+  flex-direction: row-reverse;
+}
 
 
 /* Ejercicio 6. */
+#ejercicioSiete
+{
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#elementoCuatro
+{
+    align-self: flex-end;
+}
